@@ -16,6 +16,14 @@ public class Wektory {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Wektor w = new Wektor(new int[] {1,2,3,4});
+        w.wypisz();
+        Wektor w2 = new Wektor(new int[] {1,0,1,0});
+        w.dodaj(w2).wypisz();
+        w.odejmij(w2).wypisz();
+        w.pomnożLiczbe(3).wypisz();
+        System.out.println(w.mnożenieSkalarne(w2));
+        System.out.println(w.dlugosc());
     }
     
 }
