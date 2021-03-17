@@ -7,7 +7,7 @@ package wektory;
 
 /**
  *
- * @author Wojciech
+ * @author Patrycja
  */
 public class Wektory {
 
